@@ -1,0 +1,44 @@
+[
+  {
+    "id": "712020:0458397d-4379-40b8-afbf-a6929c2345b8",
+    "name": "Harshvardhan Mehta",
+    "email": "extraonmymail@gmail.com",
+    "status": "active",
+    "accountStatus": "active"
+  },
+  {
+    "id": "63da338f491b20ef64b86183",
+    "name": "person-1",
+    "email": "person-1@gmail.com",
+    "status": "active",
+    "accountStatus": "active"
+  },
+  {
+    "id": "63da341cf1475ad42c58463e",
+    "name": "person-2",
+    "email": "person-2@gmail.com",
+    "status": "suspended",
+    "accountStatus": "active"
+  },
+  {
+    "id": "712020:b228a423-05e5-4b0e-adcb-ce91cbdab9ee",
+    "name": "Person-3",
+    "email": "person-3@gmail.com",
+    "status": "suspended",
+    "accountStatus": "active"
+  },
+  {
+    "id": "712020:dc4d2617-d778-49f0-b07c-f7cb588e86bb",
+    "name": "Person-5",
+    "email": "person-5@gmail.com",
+    "status": "suspended",
+    "accountStatus": "active"
+  },
+  {
+    "id": "712020:c82a7d36-a367-4e5b-a58b-f8d5f897ccea",
+    "name": "Person-6",
+    "email": "person-6@gmail.com",
+    "status": "suspended",
+    "accountStatus": "active"
+  }
+]

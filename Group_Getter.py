@@ -62,7 +62,7 @@ async def run():
             ]
             
             # Save to Groups_Result.json
-            with open("Groups_Result.json", "w") as f:
+            with open("Outputs/Groups_Result.json", "w") as f:
                 json.dump(filtered_groups, f, indent=2)
             print("Saved filtered groups to Groups_Result.json")
         else:

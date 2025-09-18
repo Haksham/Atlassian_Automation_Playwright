@@ -13,7 +13,7 @@ USERNAME = os.getenv("ATLASSIAN_USERNAME")
 PASSWORD = os.getenv("ATLASSIAN_PASSWORD")
 
 # Read group names from Excel sheet named "Group.xlsx"
-excel_path = os.path.join(os.path.dirname(__file__), "Group.xlsx")
+excel_path = os.path.join(os.path.dirname(__file__), "Data/Group.xlsx")
 df = pd.read_excel(excel_path)
 group_list = df['Group'].dropna().tolist()  # Assumes column name is 'Group'
 

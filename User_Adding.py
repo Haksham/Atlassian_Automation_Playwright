@@ -13,7 +13,7 @@ USERNAME = os.getenv("ATLASSIAN_USERNAME")
 PASSWORD = os.getenv("ATLASSIAN_PASSWORD")
 
 # Read email IDs and group names from Excel sheet named "User.xlsx"
-excel_path = os.path.join(os.path.dirname(__file__), "User.xlsx")
+excel_path = os.path.join(os.path.dirname(__file__), "Data/User.xlsx")
 df = pd.read_excel(excel_path)
 email_list = df['Mail Id'].dropna().tolist()  # Assumes column name is 'Mail Id'
 group_list = df['Group'].dropna().tolist()    # Assumes column name is 'Group'

@@ -63,7 +63,7 @@ async def run():
                 })
 
             # Save to JSON file
-            with open("Users_Result.json", "w") as f:
+            with open("Outputs/Users_Result.json", "w") as f:
                 json.dump(filtered_users, f, indent=2)
    
         # Keep browser open for inspection
