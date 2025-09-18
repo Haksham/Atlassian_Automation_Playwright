@@ -142,7 +142,6 @@ python3 -m playwright install
 
 ## ⚠️ Notes
 
-- ⛔ Only **4 users** can be invited per batch due to Atlassian limitations.
 - 🔄 For large datasets, ensure pagination logic is implemented.
 - 🧑‍💻 All scripts are designed for educational and assessment purposes.
 
