@@ -47,24 +47,22 @@ async def run():
         await page.click('div[role="list"] >> text=Users')
         await page.wait_for_load_state('networkidle')
 
+        # Step 5: Click on 'invite users' button
+        await page.wait_for_selector('button:has-text("invite users")', timeout=10000)
+        await page.click('button:has-text("invite users")')
+        await page.wait_for_selector('input#invite-users-email-input', timeout=10000)
+
         for email, group in zip(email_list, group_list):
-            # Step 5: Click on 'invite users' button
-            await page.wait_for_selector('button:has-text("invite users")', timeout=10000)
-            await page.click('button:has-text("invite users")')
-            await page.wait_for_selector('input#invite-users-email-input', timeout=10000)
 
             # Step 6: Enter email IDs and group names from Excel sheet
             await page.fill('input#invite-users-email-input', email)
             await page.fill('input#group-membership-input', str(group))
             await page.press('input#group-membership-input', 'Enter')
-            await page.click('button[data-testid="invite-submit-button"]')
-            await page.wait_for_selector('input#invite-users-email-input', state='hidden', timeout=10000)
-            await page.reload()
-            await page.wait_for_load_state('networkidle')
-            await asyncio.sleep(3)  # Pause for demo; adjust as needed 
+
+        await page.click('button[data-testid="invite-submit-button"]')     
 
         # Keep browser open for inspection
-        await asyncio.sleep(3)
+        await asyncio.sleep(5)
         await browser.close()
 
 # only 4 id per batch

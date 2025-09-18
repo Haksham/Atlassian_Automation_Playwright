@@ -1,0 +1,132 @@
+[
+  {
+    "Id": "b83dc2a5-8201-4fbf-824d-bc1e8ae06620",
+    "Name": "Gp1",
+    "Description": "This is: Gp1"
+  },
+  {
+    "Id": "72bfa0d8-930e-4553-840f-7c83d3473cdc",
+    "Name": "Gp10",
+    "Description": "This is: Gp10"
+  },
+  {
+    "Id": "738ac002-aa86-4132-8f1b-9bfb639c3389",
+    "Name": "Gp11",
+    "Description": "This is: Gp11"
+  },
+  {
+    "Id": "bdc2a0ad-5572-4d2f-9325-8c4a45f37a04",
+    "Name": "Gp12",
+    "Description": "This is: Gp12"
+  },
+  {
+    "Id": "cb21cf08-92c9-490e-96d9-d3902d2d81b2",
+    "Name": "Gp13",
+    "Description": "This is: Gp13"
+  },
+  {
+    "Id": "b0b63414-08af-4727-9adc-a65ed565a5e0",
+    "Name": "Gp14",
+    "Description": "This is: Gp14"
+  },
+  {
+    "Id": "f9fe0643-4d72-4e54-8cc3-f8586627915b",
+    "Name": "Gp15",
+    "Description": "This is: Gp15"
+  },
+  {
+    "Id": "b6a76f3e-9d69-4d65-b965-445966083b24",
+    "Name": "Gp16",
+    "Description": "This is: Gp16"
+  },
+  {
+    "Id": "04750a7b-2198-4e52-97f4-a92d5396369d",
+    "Name": "Gp17",
+    "Description": "This is: Gp17"
+  },
+  {
+    "Id": "e47e1696-c532-4fe8-bad3-78d407123217",
+    "Name": "Gp18",
+    "Description": "This is: Gp18"
+  },
+  {
+    "Id": "68780cd5-81e5-416a-a964-76441b5b22a9",
+    "Name": "Gp19",
+    "Description": "This is: Gp19"
+  },
+  {
+    "Id": "c400669e-f1b4-43fc-aad5-e16f9800438d",
+    "Name": "Gp2",
+    "Description": "This is: Gp2"
+  },
+  {
+    "Id": "3a863cd8-b3b0-4148-8726-bc6e6c02d0fa",
+    "Name": "Gp20",
+    "Description": "This is: Gp20"
+  },
+  {
+    "Id": "9878ae54-e0e0-487a-9775-0fa318976fbd",
+    "Name": "Gp21",
+    "Description": "This is: Gp21"
+  },
+  {
+    "Id": "4fcd31d3-e93b-42a5-990a-c056923603f2",
+    "Name": "Gp22",
+    "Description": "This is: Gp22"
+  },
+  {
+    "Id": "e55684cd-136f-40af-b8cd-f352ff1ff031",
+    "Name": "Gp23",
+    "Description": "This is: Gp23"
+  },
+  {
+    "Id": "723fa43d-d728-49d1-878c-011bba395dd1",
+    "Name": "Gp24",
+    "Description": "This is: Gp24"
+  },
+  {
+    "Id": "12097d00-53a2-4b0a-ba1f-183d1a2c3b62",
+    "Name": "Gp25",
+    "Description": "This is: Gp25"
+  },
+  {
+    "Id": "45ba2da8-8be5-48af-bc25-fca3831b1698",
+    "Name": "Gp3",
+    "Description": "This is: Gp3"
+  },
+  {
+    "Id": "902ad634-8362-4077-8940-c1afb58e299f",
+    "Name": "Gp4",
+    "Description": "This is: Gp4"
+  },
+  {
+    "Id": "03573800-67c7-4f56-94c5-3b8eb8391067",
+    "Name": "Gp5",
+    "Description": "This is: Gp5"
+  },
+  {
+    "Id": "5b310c56-cc1f-414d-b910-accd1c845f26",
+    "Name": "Gp6",
+    "Description": "This is: Gp6"
+  },
+  {
+    "Id": "aa2c10f2-cb6d-4671-a9dc-f13361bc4f8a",
+    "Name": "Gp7",
+    "Description": "This is: Gp7"
+  },
+  {
+    "Id": "c8060343-8dc9-4523-a63c-3b1c00672cf1",
+    "Name": "Gp8",
+    "Description": "This is: Gp8"
+  },
+  {
+    "Id": "92c6024f-ef9a-46a4-b829-144c9a73e95d",
+    "Name": "Gp9",
+    "Description": "This is: Gp9"
+  },
+  {
+    "Id": "547fafb1-dbf2-49e0-a9c4-7860c1a6f8f0",
+    "Name": "org-admins",
+    "Description": "Grants access to administer org-level settings, users, and groups, and to view billing"
+  }
+]

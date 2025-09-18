@@ -47,7 +47,7 @@ async def run():
         org_id = match.group(1) if match else None
 
         if org_id:
-            api_url = f"https://admin.atlassian.com/gateway/api/admin/v2/orgs/{org_id}/directories/-/users"
+            api_url = f"https://admin.atlassian.com/gateway/api/admin/v2/orgs/{org_id}/directories/-/users?limit=100"
             response = await page.request.get(api_url)
             User_json = await response.json()
 
@@ -55,11 +55,11 @@ async def run():
             filtered_users = []
             for user in User_json.get("data", []):
                 filtered_users.append({
-                    "id": user.get("accountId"),
-                    "name": user.get("name"),
-                    "email": user.get("email"),
-                    "status": user.get("status"),
-                    "accountStatus": user.get("accountStatus")
+                    "Id": user.get("accountId"),
+                    "Name": user.get("name"),
+                    "Email": user.get("email"),
+                    "Status": user.get("status"),
+                    "Last Seen": user.get("addedToOrg"),
                 })
 
             # Save to JSON file

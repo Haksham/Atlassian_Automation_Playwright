@@ -47,16 +47,16 @@ async def run():
         org_id = match.group(1) if match else None
 
         if org_id:
-            api_url = f"https://admin.atlassian.com/gateway/api/adminhub/um/org/{org_id}/groups?count=20&start-index=1"
+            api_url = f"https://admin.atlassian.com/gateway/api/adminhub/um/org/{org_id}/groups"
             response = await page.request.get(api_url)
             groups_json = await response.json()
             
             # Extract only id, name, description for each group
             filtered_groups = [
                 {
-                    "id": group.get("id"),
-                    "name": group.get("name"),
-                    "description": group.get("description")
+                    "Id": group.get("id"),
+                    "Name": group.get("name"),
+                    "Description": group.get("description")
                 }
                 for group in groups_json.get("groups", [])
             ]
