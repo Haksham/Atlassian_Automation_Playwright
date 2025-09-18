@@ -1,5 +1,7 @@
 python-dotenv
 playwright
+pandas
+openpyxl
 
 System used: Ubuntu
 
