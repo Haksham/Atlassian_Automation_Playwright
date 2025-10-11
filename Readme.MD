@@ -25,7 +25,7 @@ Automate the process of fetching and parsing the list of users, groups, and grou
 <summary>Click to expand project directory structure</summary>
 
 ```
-IDEN-2/
+Files/
 ├── Data/
 │   ├── User.xlsx              # 📄 Excel file with user emails and group assignments
 │   └── Group.xlsx             # 📄 Excel file with group names
