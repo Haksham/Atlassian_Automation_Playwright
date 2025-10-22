@@ -149,5 +149,4 @@ python3 -m playwright install
 
 ## 👨‍💻 Author
 
-Integration Engineer Assessment: Atlassian Sync <br>
 [(˶ᵔ ᵕ ᵔ˶) Harshvardhan Mehta](https://www.linkedin.com/in/harshvmehta)
